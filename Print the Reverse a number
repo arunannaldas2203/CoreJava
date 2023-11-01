@@ -1,0 +1,19 @@
+To print the reverse of a number by reversing the order of its digits.
+
+    import java.util.Scanner;
+
+    public class ReverseNumber {
+      public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int number = sc.nextInt();
+        String s = String.valueOf(number);
+        String reverseString= "";
+        for (int i= s.length()-1;i>=0;i--){
+            reverseString = reverseString + s.charAt(i);
+        }
+        System.out.println(reverseString); 
+  }
+}
+
