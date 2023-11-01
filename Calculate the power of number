@@ -1,0 +1,15 @@
+ Find the value of one number raised to the power of another number
+
+ public class Assignment1 {
+    public static void main(String[] args){
+
+        int firstNumber = 10;
+        int power = 5;
+        int output = 1;
+       for(int i=1;i<=power;i++){
+           output = output*firstNumber;
+       }
+        System.out.println(output);
+    }
+}
+
