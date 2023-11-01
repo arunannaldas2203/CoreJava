@@ -1,0 +1,24 @@
+To calculate the area of a rectangle in Java, you need to multiply its length by its width. Here's a simple Java program that does this:
+
+public class Area1 {
+
+    int length;
+    int breadth;
+    public void setDim(int length,int breadth){
+       this.length = length;
+       this.breadth = breadth;
+    }
+    public int getArea(){
+       int  areaOfRectangle = length*breadth;
+       return  areaOfRectangle;
+    }
+    public static void main(String[] args) {
+        Area1 area = new Area1();
+        area.setDim(10,21);
+        System.out.println( area.getArea());
+
+    }
+}
+
+
+
