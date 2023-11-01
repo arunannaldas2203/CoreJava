@@ -1,0 +1,14 @@
+To find the factorial of a number in Java, you can use a loop, such as a for loop. 
+
+public class Factorial {
+    public static void main(String[] args){
+
+        int n = 5;
+        int count =1;
+        for (int i=1;i<=n;i++){
+            count = count * i;
+
+        }
+        System.out.println(count);
+    }
+}
