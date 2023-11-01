@@ -1,0 +1,1 @@
+A for loop in Java is a control flow statement that allows you to repeatedly execute a block of code a specified number of times. It is commonly used when you know in advance how many times you want to repeat a certain action. The for loop is ideal for iterating through arrays, collections, or performing any repetitive task with a known iteration count.
