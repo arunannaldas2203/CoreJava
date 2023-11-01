@@ -1,0 +1,11 @@
+We set n to the number of natural numbers you want to sum.
+We initialize a variable sum to zero. This variable will store the sum of the numbers.
+The for loop iterates from 1 to n. In each iteration, it adds the value of i to the sum variable.
+
+        
+        int sum=0;
+        int n=10;
+        for (int i=1;i<=n;i++){
+            sum+= i;
+        }
+        System.out.println(sum);
