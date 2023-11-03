@@ -1,0 +1,11 @@
+
+
+        int n1 = 300;
+        int n2 = 450;
+        int hcf = 0;
+        for (int i=1; i<=n2;i++){
+            if (n1%i == 0 && n2%i == 0) {
+                hcf = i;
+            }
+        }
+        System.out.println("HCF is : "+hcf);
